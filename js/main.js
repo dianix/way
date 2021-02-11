@@ -5,21 +5,10 @@ function initCarrusel() {
         lazyLoad: 'progressive',
         slidesToShow: 1,
         slidesToScroll: 1,
-        // responsive: [{
-        //         breakpoint: 960,
-        //         settings: {
-        //             slidesToShow: 2,
-        //             slidesToScroll: 1
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 370,
-        //         settings: {
-        //             slidesToShow: 1,
-        //             slidesToScroll: 1
-        //         }
-        //     },
-        // ]
     });
 }
+function mensaje(){
+    alert('Este es un mensaje activado por un botón de acción')
+}
 $(document).ready(initCarrusel)
+$('.way-btn').click(mensaje)

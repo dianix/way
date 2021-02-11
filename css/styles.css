@@ -69,6 +69,7 @@ html {
     border-radius: 3px;
     background-color: #58AB6D;
     color: #fff;
+    cursor: pointer;
 }
 .way-titulo{
     font-weight: 300;
@@ -106,6 +107,13 @@ html {
 .way-header__menu {
     list-style: none;
     width: 90%;
+}
+.way-header__menu a{
+    text-decoration: none;
+    color: #1D242E;
+}
+.way-header__menu a:hover{
+    color: #58AB6D;
 }
 .way-header__burger{
     display: none;
